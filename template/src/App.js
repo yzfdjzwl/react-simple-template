@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="text">A App</div>
+        <div className="text">Hello, Welcome you to use my template..</div>
         <img className="img" src={pic} />
       </div>
     );

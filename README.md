@@ -14,9 +14,13 @@ Do this Command:
 
 ```bash
 $ touch README.md
+
 $ mkdir template
+
 $ cd template
+
 $ touch index.html && touch webpack.config.js && mkdir src && npm init && touch .babelrc
+
 $ cd src && touch App.js && touch index.css && touch index.js
 ```
 
@@ -39,9 +43,14 @@ And you get some files like this:
 
 ```bash
 $ npm install css-loader style-loader file-loader
+
 $ npm install --save-dev webpack webpack-dev-server webpack-cli
+
 $ npm install --save react react-dom
+
 $ npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+
+$ npm install --save-dev cross-env
 ```
 
 #### Edit `.bablerc`
