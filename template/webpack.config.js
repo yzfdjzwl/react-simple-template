@@ -80,6 +80,7 @@ module.exports = {
 
 
 // `cross-env` can set and use environment variables across platforms
+// TODO: process.env.NODE_ENV
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map';
   module.exports.plugins = (module.exports.plugins || []).concat([
