@@ -9,6 +9,9 @@ module.exports = {
   // if the value is `development`, `process.env.NODE_ENV` will be replaced with `development` by `webpack` in `src`
   mode: 'none',
 
+  // source-map
+  devtool: '#eval-source-map',
+
   entry: [
     './src/index.js',
   ],

@@ -6,6 +6,15 @@ When I use Vue, [webpack-simple](https://github.com/vuejs-templates/webpack-simp
 
 ## Usage
 
+```bash
+# install dependencies
+$ npm install
+
+$ npm run dev
+
+$ npm run build
+```
+
 ## Devolopement Process
 
 ### Create Base Files

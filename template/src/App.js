@@ -10,7 +10,7 @@ class App extends Component {
     }
     return (
       <div className="container">
-        <div className="text">Hello, Welcome you to use my template..</div>
+        <div className="text">Hello, Welcome you to use my template</div>
         <img className="img" src={pic} />
       </div>
     );
