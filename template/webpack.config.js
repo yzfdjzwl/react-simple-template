@@ -79,8 +79,16 @@ module.exports = {
 };
 
 
-// `cross-env` can set and use environment variables across platforms
-// TODO: process.env.NODE_ENV
+// [process document](http://nodejs.cn/api/en/process.html#process_process)
+// The process object is a global that provides information about, and control over, the current Node.js process.
+
+// `process.env` returns an object containing the user environment.
+// but there's something different between *nix and windows when sets environment variables(process.env).
+// so the third-party libarary `cross-env` help us to solve that.
+
+// [DefinePlugin document](https://webpack.js.org/plugins/define-plugin/)
+// The DefinePlugin allows you to create global constants which can be configured at compile time.
+// that's to say, the plugin will replace `process.env.NODE_ENV` with `production` in your codes when compiling.
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map';
   module.exports.plugins = (module.exports.plugins || []).concat([
