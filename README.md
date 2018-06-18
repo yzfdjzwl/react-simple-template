@@ -19,22 +19,7 @@ $ npm run build
 
 ### Create Base Files
 
-Do this Command:
-
-```bash
-$ touch README.md
-
-$ mkdir template
-
-$ cd template
-
-$ touch index.html && touch webpack.config.js && mkdir src && npm init && touch .babelrc
-
-$ cd src && touch App.js && touch index.css && touch index.js
-```
-
-And you get some files like this:
-
+New some base files, so your directory will like this:
 ```
 .
 ├── README.md
