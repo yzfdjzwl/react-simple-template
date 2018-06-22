@@ -30,9 +30,15 @@ module.exports = {
 
 
     // if you don't set contentBase, the root of the server resource is the root of the project
+    // not the path where execute the npm command
+    // not the path where `webpack.config.js` configuration path
     // the base config of contentBase like this: `contentBase: path.resolve(__dirname)`
+
     // if you set like this: `contentBase: path.resolve(__dirname, './dist')`
     // the root of the server resource is the `dist`
+
+    // display the specified contentBase as the current directory
+    contentBase: path.resolve(__dirname, './'),
 
     compress: true,
 
